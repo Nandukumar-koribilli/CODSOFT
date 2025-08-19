@@ -14,7 +14,7 @@ def rule_based_reply(user_input):
     elif "how are you" in user_input:
         return "I'm doing well, thanks for asking! How about you?"
     elif "your name" in user_input:
-        return "I'm ChatKrish, your friendly assistant 🤖"
+        return "I'm Chatnandu, your friendly assistant 🤖"
     elif "bye" in user_input:
         return "Goodbye! Have a great day! 👋"
     elif "thank" in user_input:
@@ -82,7 +82,7 @@ if user_input:
     else:
         response = ml_based_reply(user_input)
 
-    st.session_state.chat_history.append(("ChatKrish", response))
+    st.session_state.chat_history.append(("Chatnandu", response))
 
 # Display full chat history with styled bubbles
 for sender, message in st.session_state.chat_history:
