@@ -15,6 +15,8 @@ This project uses a Convolutional Neural Network (CNN) as an encoder and a Recur
 - TensorFlow / Keras
 - Streamlit
 - Numpy, Pillow
+- transformers 
+-  torch
 
 ## 🚀 How to Run
 
